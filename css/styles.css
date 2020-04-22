@@ -29,9 +29,6 @@
 	background-color: rgba(242,237,233,1.00);
 }
 
-{
-	 box-sizing: border-box;
-}
  
 
 /* Style inputs */
@@ -64,12 +61,22 @@ input[type=submit]:hover {
 }
 
 /* Create two columns that float next to eachother */
-.column {
+.column2 {
   float: left;
   width: 25%;
   margin-top: 6px;
   padding: 20px;
 }
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+ 
 
 /* Clear floats after the columns */
 .row:after {
