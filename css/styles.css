@@ -1,1 +1,11 @@
 @charset "utf-8";
+.col-10 #carouselExampleIndicators .carousel-inner {
+	  margin: 6px;
+      height: 120px;
+      background-size: cover;
+      background-position: center center;
+}
+.row.d-flex.align-items-center .col-1.d-flex.align-items-center.justify-content-center a {
+	height: 48px;
+   width: 48px;
+}
