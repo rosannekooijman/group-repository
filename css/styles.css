@@ -29,4 +29,39 @@
 	background-color: rgba(242,237,233,1.00);
 }
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;
+    background-image: url(url);    
+}
 
+	.fa-youtube {
+    background-color: #000000;
+    color: white;		
+		
+}
+
+.fa-instagram {
+  background: #000000;
+  color: white;
+}
+
+.fa-facebook {
+  background: #000000;
+  color: white;
+}
+
+.fa-spotify {
+  background: #000000;
+  color: white;
+}
+
+
+.background footer .fa.fa-facebook {
+	
+}
