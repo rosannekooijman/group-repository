@@ -29,6 +29,7 @@
 	background-color: rgba(242,237,233,1.00);
 }
 
+<<<<<<< HEAD
  
 
 /* Style inputs */
@@ -85,12 +86,6 @@ input[type=submit]:hover {
   clear: both;
 }
 
+=======
+>>>>>>> 479f391d731ccc58369d7215960eacb53d920eb3
 
-
- /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
