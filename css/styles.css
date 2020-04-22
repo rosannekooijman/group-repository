@@ -71,7 +71,7 @@ input[type=submit]:hover {
   padding: 10px;
 }
 
-<<<<<<< HEAD
+ 
 /* Create two columns that float next to eachother */
 .column {
   float: left;
@@ -100,8 +100,7 @@ input[type=submit]:hover {
   padding: 5px;
 }
 
-  .column2 {
-=======
+   
 .column {
   float: left;
   width: 33.3%;
@@ -128,6 +127,4 @@ input[type=submit]:hover {
   .column {
     width: 100%;
     display: block;
-  }
->>>>>>> 08833ff84a9847474c7dcef4c109dc552ed1f5e5
-}
+	}
