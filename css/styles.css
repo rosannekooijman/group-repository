@@ -1,4 +1,12 @@
 @charset "utf-8";
+.fontregular { 
+	font-family: 'Spectral SC', serif;
+}
+.fontbold {
+	font-family: 'Spectral SC', serif;
+	font-weight: bold; 
+	color:rgba(24,158,186,1.00);
+}
 .col-10 #carouselExampleIndicators .carousel-inner {
 	  margin: 6px;
       height: 120px;
@@ -8,4 +16,18 @@
 .row.d-flex.align-items-center .col-1.d-flex.align-items-center.justify-content-center a {
 	height: 48px;
    width: 48px;
+}
+.title {
+	color:rgba(24,158,186,1.00);
+	outline-color:rgba(24,158,186,1.00);
+}
+.info {
+  border-color: rgba(24,158,186,1.00);
+	color: rgba(24,158,186,1.00);
+}
+.background {
+	background-color: rgba(242,237,233,1.00);
+}
+
+.background-color {
 }
