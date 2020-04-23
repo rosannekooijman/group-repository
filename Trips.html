@@ -55,10 +55,11 @@
 		  <div class="row m-2">
 			  <div class="col-5 col-sm-2.5 col-lg-1.25 bg-transparent">
 				  <h3 class="text-center fontbold">The trips we offer</h3>
-				  <p class="text-center fontregular">
+				  <p class="text-center fontregular"></p> 
 				  <ul id="myUL"> <h5> Australia</h5><p>Explore the two most popular cities of Australia and New Zealand on this air-land combo tour. Start in Sydney, where you'll tour the Sydney Opera House, cruise across the famous harbour, and see koalas and kangaroos at Taronga Zoo. Then head on to Auckland where you'll explore the twin harbours, learn about Maori traditions, and enjoy unbeatable views of the landscape.</p>	 
 				<h5> Russia</h5>
 					  <p>Ready to get the taste of glorious Russia? Feel adventurous enough to move further into the continent and explore new territories? We are glad to introduce you to our extensive collection of wonderful tours to Russia and its neighboring countries. Begin your exploration of a lifetime with award-winning programs and enjoy unmatched value as you tour the cities with professional guides and seamless logistics, stay in hand-picked hotels with central locations, and get an insight into authentic places. Our tours always come with our signature service, best guides, and smooth logistics.</p> 
+				  </ul> 
 		  </div>
 			  <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
 				  <img src="images/map.png" class="img-fluid" alt="Responsive image" style="border:5px solid black"> 
@@ -103,23 +104,23 @@ Greenland has the most spectacular Arctic landscape that will amaze you with it'
   <form action="action_page.php">
     <div class="row">
       <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
-        <label for="fname">First Name</label>
+        <label for="fname">First and Last Name</label>
       </div>
       <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
-        <label for="lname">Last Name</label>
-      </div>
-      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="fname" name="firstname" placeholder="Your full name..">
       </div>
     </div>
     <div class="row">
       <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
-        <label for="country">Country</label>
+        <label for="lname">Email</label>
+      </div>
+      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+        <input type="text" id="lname" name="lastname" placeholder="Your example@email..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+        <label for="country">Choose Destination</label>
       </div>
       <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
         <select id="country" name="country">
@@ -134,10 +135,10 @@ Greenland has the most spectacular Arctic landscape that will amaze you with it'
     </div>
     <div class="row">
       <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
-        <label for="subject">Subject</label>
+        <label for="subject">Comment</label>
       </div>
       <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="What should your perfect trip contain?" style="height:200px"></textarea>
       </div>
     </div>
     <div class="row">
