@@ -53,6 +53,9 @@ body {
 .carousel .item img {
 	max-width: 100%;
 	display: inline-block;
+	height: 150px;
+	display: center;	
+	
 }
 .carousel .item .btn {
 	border-radius: 0;
@@ -121,7 +124,6 @@ body {
 .carousel-indicators li {	
 	background:rgba(0,0,0,1.00);
 }
-.carousel-indicators li.active {	
-	background: rgba(0,0,0,1.00);
-}
+
+
 
