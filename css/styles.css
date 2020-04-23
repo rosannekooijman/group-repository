@@ -37,8 +37,7 @@ body {
 	margin: 0 auto;
 	float: none !important;
 }
- 
-* {
+.random{
   box-sizing: border-box;
 }
 
