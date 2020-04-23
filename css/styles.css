@@ -12,6 +12,7 @@
       height: 120px;
       background-size: cover;
       background-position: center center;
+	
 }
 .row.d-flex.align-items-center .col-1.d-flex.align-items-center.justify-content-center a {
 	height: 48px;
@@ -47,15 +48,14 @@ body {
 }
 .carousel .item h4 {
 	font-family: 'Spectral SC', serif;
-	font-weight: bold; 
-	color:rgba(24,158,186,1.00);
+	color: rgba(24,158,186,1.00);
 }
 .carousel .item img {
-	max-width: 100%;
-	display: inline-block;
-	height: 150px;
-	display: center;	
-	
+    max-width: 100%;
+    display: inline-block;
+    height: 150px;
+    width: 250px;	
+
 }
 .carousel .item .btn {
 	border-radius: 0;
@@ -68,8 +68,7 @@ body {
 	margin-top: 5px;
 }
 .carousel .item .btn:hover {
-	background:rgba(0,0,0,1.00);
-}
+	background: rgba(0,0,0,1.00)}
 .carousel .item .btn i {
 	font-size: 14px;
     font-weight: bold;
@@ -78,7 +77,8 @@ body {
 .carousel .thumb-wrapper {
 	margin: 5px;
 	text-align: left;
-    box-shadow: 0px 2px 2px rgba(24,158,186,1.00);  
+    background: #fff;
+    box-shadow: 0px 2px 2px rgba(24,158,186,1.00);   
 }
 .carousel .thumb-content {
 	padding: 15px;
@@ -101,7 +101,7 @@ body {
     z-index: 5;
     left: 0;
     right: 0;
-    color: rgba(24,158,186,1.00);
+    color: rgba(0, 0, 0, 0.8);
 	text-shadow: none;
     font-weight: bold;
 }
@@ -116,14 +116,14 @@ body {
 }
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 10px;
-	height: 10px;
+	height: 1px;
 	border-radius: 50%;
-	margin: 4px;
-	border-color:rgba(0,0,0,1.00);
+	margin: 6px;
+	border-color: transparent;
 }
 .carousel-indicators li {	
-	background:rgba(0,0,0,1.00);
+	background: rgba(0,0,0,1.00);
 }
-
-
-
+.carousel-indicators li.active {	
+	background: rgba(0,0,0,1.00);
+}
