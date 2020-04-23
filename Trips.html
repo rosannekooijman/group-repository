@@ -26,6 +26,7 @@
 		  <button type="button" class="btn btn-outline-primary title info fontregular">About us</button>
 	  </a>
 	
+	
 		  <div class="dropdown">
   <button class="btn btn-outline-primary dropdown-toggle title info fontregular" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   Products
@@ -48,7 +49,105 @@
 		  <button type="button" class="btn btn-outline-primary title info fontregular">Design Justification</button>
 	</a>
 </nav>
-	  
+	  <h1 class="text-center m-2 title fontbold">Trips</h1>
+	  <hr class="my-4">
+	  <div class="container-fluid">
+		  <div class="row m-2">
+			  <div class="col-5 col-sm-2.5 col-lg-1.25 bg-transparent">
+				  <h3 class="text-center fontbold">The trips we offer</h3>
+				  <p class="text-center fontregular">
+				  <ul id="myUL"> <h5> Australia</h5><p>Explore the two most popular cities of Australia and New Zealand on this air-land combo tour. Start in Sydney, where you'll tour the Sydney Opera House, cruise across the famous harbour, and see koalas and kangaroos at Taronga Zoo. Then head on to Auckland where you'll explore the twin harbours, learn about Maori traditions, and enjoy unbeatable views of the landscape.</p>	 
+				<h5> Russia</h5>
+					  <p>Ready to get the taste of glorious Russia? Feel adventurous enough to move further into the continent and explore new territories? We are glad to introduce you to our extensive collection of wonderful tours to Russia and its neighboring countries. Begin your exploration of a lifetime with award-winning programs and enjoy unmatched value as you tour the cities with professional guides and seamless logistics, stay in hand-picked hotels with central locations, and get an insight into authentic places. Our tours always come with our signature service, best guides, and smooth logistics.</p> 
+		  </div>
+			  <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+				  <img src="images/map.png" class="img-fluid" alt="Responsive image" style="border:5px solid black"> 
+		  </div>
+	  </div>
+    </div>
+		
+	  <hr class="my-4">
+	  <div class="container-fluid">
+		  <div class="row m-2">
+			  <div class="col-5 col-sm-2.5 col-lg-1.25 bg-transparent">
+				  <h5 class="text-center fontregular"> Mexico</h5>
+				  <p class="text-center fontregular">From pre-Hispanic ruins to resort-lined beaches, thronged metropolises to cactus-dotted deserts, few countries can offer as much diversity as Mexico.
+
+Visit the vast landscapes of Mexico, a country in the southern half of North America that promises picture-perfect beaches, ancient ruins and delicious chili-laden cuisine from street-side vendors. Hike up a volcano, see pyramids from centuries past and visit grand colonial palaces in the capital city. 
+
+Mexico’s rich history can be traced by to ancient civilizations such as the Aztecs, Olmecs and Mayans. The Spanish conquests in the 1500s forever altered the course of Mexican history, but it did not erase many of the customs and architecture that still stands from the country’s pre-colonial days. 
+
+Start in Mexico City to see the Palacio Nacional, a colonial palace with murals depicting the history of Mexico. Head north of Mexico City to see Teotihuacán, a vast archaeological complex featuring the remnants of a settlement dating back to between the 1st and 7th century. While much of the city is now ruins, the two main pyramids, Pyramid of the Sun and Pyramid of the Moon, still tower over the landscape.
+
+Mexico is blessed with incredible beaches and coastal resorts. Experience the active nightlife of Puerto Vallarta, splash around in the sparkling blue waters of Playa del Carmen and explore the family-friendly beaches of Cabo San Lucas.</p>
+			  </div>
+			  <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+				<h5 class="text-center fontregular"> Greenland</h5>
+				  <p class="text-center fontregular">Greenland Expedition Cruising
+Expedition-Cruising in Greenland is a great way to get around and see the most of your chosen destination. Your 'floating hotel' allows you to enjoy your surroundings while you rest for your next excursion. We offer several trips around Greenland so you can discover the beautiful landscapes and wildlife. 
+Nature in Greenland
+Greenland has the most spectacular Arctic landscape that will amaze you with it's diversity. While sailing on your vessel you will be stunned by remote fjords, immense icebergs and huge calving glaciers but also mountains covered in wild flowers. Explore it's beauty up close in zodiacs, while kayaking or diving and through the walks on land. Greenland is full of wildlife. You can find whales, seals, reindeer, musk oxes, caribou and polar bears.</p>
+				  <h5 class="text-center fontregular"> Italy</h5>
+				  <p>Welcome to Rome! After a transfer to your hotel, begin your tour tonight by exploring the popular area of Trastevere. This neighbourhood is a great introduction to Rome! Many trattorias (informal Italian eating establishments) and osterias (inns) imbued with the Italian spirit will be ready to serve you local dishes. Stroll the narrow cobbled streets to discover hidden treasures, such as some modest medieval churches, small shops with the most peculiar of objects or scenes of daily life, before returning to your hotel.
+				  </p>
+				  <h5 class="text-center fontregular"> Turkey</h5>
+				  <p>Experience the stunning sights and tantalising tastes of Turkey on this two-week adventure that takes in all the highlights and then some. Become acquainted with illustrious Istanbul, behold landscapes like no other around Cappadocia, and sail the all-too-pretty islands off Kekova. Marvel at the ancient ruins of Ephesus, settle in for a spectacular soaking in Pamukkale’s thermal hot springs, and reflect on the tragedies and gallantries that took place along Gallipoli’s windswept peninsula. Brimming with history, bustling with progress and bursting with flavour, Turkey intrigues and delights at every turn of this perfectly paced small group adventure.</p>
+			  </div>	 
+		  </div>
+	  </div> 
+		  <button class="fontbold center" onclick="myFunction()" style="float: right">Click for More Destinations and Info</button>
+
+<div id="myDIV">
+</div>
+	  <div class="container-fluid">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Russia</option>
+          <option value="usa">Mexico</option>
+			<option value="usa">Greenland</option>
+			<option value="usa">Italy</option>
+			<option value="usa">Turkey</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-7 col-sm-3.5 col-lg-1.75 bg-transparent">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+		   <input type="submit" value="Submit" style="background-color: rgba(24,158,186,1.00)">
+    </div>
+  </form>
+</div>
+
+
+	  		  
 	  
 	  
 	   <footer>
