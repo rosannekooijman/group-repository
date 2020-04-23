@@ -32,6 +32,9 @@
 .background {
 	background-color: rgba(242,237,233,1.00);
 }
+.avatar {
+	width:90px
+}
 
 body {
 	background: #ebebeb;
