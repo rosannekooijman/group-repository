@@ -37,13 +37,15 @@ body {
 	margin: 0 auto;
 	float: none !important;
 }
- 
-* {
+.random{
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 .form .row .col-75 {
 }
 
+=======
+>>>>>>> 811aa53f3a96d4a61e0f821f727271971d7293f2
 
 /* Style inputs */
 .input[type=text], select, textarea {
@@ -74,7 +76,6 @@ body {
   padding: 10px;
 }
 
- 
 /* Create two columns that float next to eachother */
 .column {
   float: left;
@@ -96,6 +97,7 @@ body {
     width: 100%;
     margin-top: 0;
   }
+<<<<<<< HEAD
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column2 {
   float: left;
@@ -172,3 +174,6 @@ body {
 	}
 	} 
 } 
+=======
+}
+>>>>>>> 811aa53f3a96d4a61e0f821f727271971d7293f2
