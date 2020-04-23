@@ -41,7 +41,7 @@ body {
 * {
   box-sizing: border-box;
 }
-form .row .col-75 {
+form .row .col-75{
 }
 
 
@@ -175,4 +175,4 @@ ul, #myUL {
 /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
 .active {
   display: block;
-}
+	} 
