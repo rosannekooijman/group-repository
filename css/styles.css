@@ -32,9 +32,6 @@
 .background {
 	background-color: rgba(242,237,233,1.00);
 }
-.avatar {
-	width:90px
-}
 
 body {
 	background: #ebebeb;
@@ -59,7 +56,7 @@ body {
     max-width: 100%;
     display: inline-block;
     height: 150px;
-    width: 250px;	
+    width: 300px;	
 
 }
 .carousel .item .btn {
@@ -84,7 +81,6 @@ body {
 .carousel .thumb-wrapper {
 	margin: 5px;
 	text-align: left;
-    background: #fff;
     box-shadow: 0px 2px 2px rgba(24,158,186,1.00);   
 }
 .carousel .thumb-content {
@@ -97,13 +93,13 @@ body {
     background: none;
     margin: auto 0;
     border-radius: 50%;
-    border: 3px solid rgba(24,158,186,1.00);	
+    border: 0px solid rgba(24,158,186,1.00);	
 	
 }
 .carousel .carousel-control i {
-    font-size: 36px;
+    font-size: 40px;
     position: absolute;
-    top: 50%;
+    top: 45%;
     display: inline-block;
     margin: -19px 0 0 0;
     z-index: 5;
@@ -114,10 +110,10 @@ body {
     font-weight: bold;
 }
 .carousel .carousel-control.left i {
-	margin-left: -3px;
+	margin-left: -100px;
 }
 .carousel .carousel-control.right i {
-	margin-right: -3px;
+	margin-right: -100px;
 }
 .carousel .carousel-indicators {
 	bottom: -60px;
@@ -126,7 +122,7 @@ body {
 	width: 10px;
 	height: 1px;
 	border-radius: 50%;
-	margin: 6px;
+	margin: 10px;
 	border-color: transparent;
 }
 .carousel-indicators li {	
@@ -172,6 +168,8 @@ body {
   width: 50%;
   margin-top: 6px;
   padding: 20px;
+}
+.background footer a {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -257,4 +255,39 @@ body {
 	}
 	}
 
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width:auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 1;
+	color: black;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-spotify {
+  background: #00b489;
+  color: white;
 }
