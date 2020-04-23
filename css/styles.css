@@ -37,13 +37,15 @@ body {
 	margin: 0 auto;
 	float: none !important;
 }
- 
-* {
+.random{
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 .form .row .col-75 {
 }
 
+=======
+>>>>>>> 811aa53f3a96d4a61e0f821f727271971d7293f2
 
 /* Style inputs */
 .input[type=text], select, textarea {
@@ -74,20 +76,12 @@ body {
   padding: 10px;
 }
 
- 
 /* Create two columns that float next to eachother */
-.column {
+ .column {
   float: left;
   width: 50%;
   margin-top: 6px;
   padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -96,6 +90,7 @@ body {
     width: 100%;
     margin-top: 0;
   }
+<<<<<<< HEAD
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column2 {
   float: left;
@@ -106,7 +101,7 @@ body {
    
 .column {
   float: left;
-  width: 33.3%;
+  width: 25%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -172,3 +167,6 @@ body {
 	}
 	} 
 } 
+=======
+}
+>>>>>>> 811aa53f3a96d4a61e0f821f727271971d7293f2
