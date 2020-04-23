@@ -2,6 +2,9 @@
 .fontregular { 
 	font-family: 'Spectral SC', serif;
 }
+.avatar {
+	width: 90px
+}
 .fontbold {
 	font-family: 'Spectral SC', serif;
 	font-weight: bold; 
