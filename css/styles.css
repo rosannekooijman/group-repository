@@ -41,12 +41,12 @@ body {
 * {
   box-sizing: border-box;
 }
-form .row .col-75 {
+.form .row .col-75 {
 }
 
 
 /* Style inputs */
-input[type=text], select, textarea {
+.input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -55,7 +55,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+.input[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
@@ -63,7 +63,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+.input[type=submit]:hover {
   background-color: #45a049;
 }
 
@@ -138,15 +138,9 @@ input[type=submit]:hover {
 }
 .map {
 }
-ul, #myUL {
-  list-style-type: none;
-}
+
 
 /* Remove margins and padding from the parent ul */
-#myUL {
-  margin: 0;
-  padding: 0;
-}
 
 /* Style the caret/arrow */
 .caret {
@@ -173,7 +167,8 @@ ul, #myUL {
 }
 
 /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
-.active {
+	.active { 
   display: block;
-}
-
+	}
+	} 
+} 
