@@ -89,16 +89,10 @@ body {
   display: table;
   clear: both;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> cdd720c31dee706cc798482879a97f7d673ab72c
+
 .pfont {
 	font-size: 10px;
 }
->>>>>>> 86c0bd3fb02d2f133ada18cac1bb2470f51ebfe8
-
 
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -181,15 +175,6 @@ body {
 	.active { 
   display: block;
 	}
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-=======
->>>>>>> cdd720c31dee706cc798482879a97f7d673ab72c
-
-
->>>>>>> 86c0bd3fb02d2f133ada18cac1bb2470f51ebfe8
 
 .fa {
   padding: 10px;
@@ -267,18 +252,5 @@ body {
 .button:hover {
   background-color: #555;
 }
-<<<<<<< HEAD
-
-
-} 
-=======
 	}
-<<<<<<< HEAD
 }
-=======
-}
-
-
-
->>>>>>> 86c0bd3fb02d2f133ada18cac1bb2470f51ebfe8
->>>>>>> cdd720c31dee706cc798482879a97f7d673ab72c
