@@ -91,10 +91,6 @@ body {
 }
 
 
-.pfont {
-	font-size: 10px;
-}
-
 
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
@@ -180,13 +176,12 @@ body {
 
 
 
-
 .names {
 	color:rgba(24,158,186,1.00);
 }
 
 
-
+}
 .icon-bar a:hover {
   background-color: #000;
 }
@@ -206,7 +201,7 @@ body {
 .button:hover {
   background-color: #555;
 	}
-	
+	}
 
 .background footer a {
 }
@@ -216,7 +211,6 @@ body {
 }
 .row.m-2 .col-12.col-sm-6.col-lg-3.bg-transparent a {
 }
-
 
 
 
@@ -380,6 +374,4 @@ body {
 
 .avatar {
 	width: 90px;
-}
-	}
 }
