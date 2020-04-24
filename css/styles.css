@@ -89,8 +89,6 @@ body {
   display: table;
   clear: both;
 }
-.container-fluid .row.m-2 .col-7.col-sm-3.5.col-lg-1.75.bg-transparent; 
-}
 .pfont {
 	font-size: 10px;
 }
@@ -177,10 +175,8 @@ body {
 	.active { 
   display: block;
 	}
-<<<<<<< HEAD
-	}
 
-}
+
 
 .fa {
   padding: 10px;
@@ -258,8 +254,8 @@ body {
 .button:hover {
   background-color: #555;
 }
+	}
+}
 
-=======
-	} 
-} 
->>>>>>> 38007eb0836896d73644a22fa2829b8ea128e014
+
+
