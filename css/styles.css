@@ -89,11 +89,7 @@ body {
   display: table;
   clear: both;
 }
-.container-fluid .row.m-2 .col-7.col-sm-3.5.col-lg-1.75.bg-transparent; 
-}
-.pfont {
-	font-size: 10px;
-}
+
 
 
 
@@ -177,12 +173,87 @@ body {
 	.active { 
   display: block;
 	}
-<<<<<<< HEAD
-	}
 
+
+
+.names {
+	color:rgba(24,158,186,1.00);
 }
 
-.fa {
+
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+	}
+	}
+
+.background footer a {
+}
+.row.m-2 .col-12.col-sm-6.col-lg-3.bg-transparent a {
+}
+.row.m-2 .col-12.col-sm-6.col-lg-3.bg-transparent a {
+}
+.row.m-2 .col-12.col-sm-6.col-lg-3.bg-transparent a {
+}
+
+
+
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+	
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(242,237,233,1.00);
+  color: black;
+  font-size: 10px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: rgba(24,158,186,1.00);
+}
+	.fa {
   padding: 10px;
   font-size: 30px;
   width:auto;
@@ -217,49 +288,92 @@ body {
   color: white;
 }
 
-.names {
-	color:rgba(24,158,186,1.00);
+.carousel .item h4 {
+	font-family: 'Spectral SC', serif;
+	color: rgba(24,158,186,1.00);
+}
+.carousel .item img {
+    max-width: 100%;
+    display: inline-block;
+    height: 150px;
+    width: 300px;	
+
+}
+.carousel .item .btn {
+	border-radius: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	background: rgba(24,158,186,1.00);
+	padding: 6px 15px;
+	margin-top: 30px;
+	
+	 
+}
+.carousel .item .btn:hover {
+	background: rgba(0,0,0,1.00)}
+.carousel .item .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carousel .thumb-wrapper {
+	margin: 5px;
+	text-align: left;
+    box-shadow: 0px 2px 2px rgba(24,158,186,1.00);   
+}
+.carousel .thumb-content {
+	padding: 15px;
+	font-size: 13px;
+}
+.carousel .carousel-control {
+    height: 44px;
+    width: 44px;
+    background: none;
+    margin: auto 0;
+    border-radius: 50%;
+    border: 0px solid rgba(24,158,186,1.00);	
+	
+}
+.carousel .carousel-control i {
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+	text-shadow: none;
+    font-weight: bold;
+}
+.carousel .carousel-control.left i {
+	margin-left: -100px;
+}
+.carousel .carousel-control.right i {
+	margin-right: -100px;
+}
+.carousel .carousel-indicators {
+	bottom: -60px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 1px;
+	border-radius: 50%;
+	margin: 10px;
+	border-color: transparent;
+}
+.carousel-indicators li {	
+	background: rgba(0,0,0,1.00);
+}
+.carousel-indicators li.active {	
+	background: rgba(0,0,0,1.00);
 }
 
-/* Style the button and place it in the middle of the container/image */
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(242,237,233,1.00);
-  color: black;
-  font-size: 10px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+.avatar {
+	width: 90px;
 }
 
-.container .btn:hover {
-  background-color: rgba(24,158,186,1.00);
-}
-.icon-bar a:hover {
-  background-color: #000;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-=======
-	} 
-} 
->>>>>>> 38007eb0836896d73644a22fa2829b8ea128e014
+	
